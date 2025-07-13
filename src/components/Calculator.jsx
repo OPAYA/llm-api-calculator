@@ -113,7 +113,7 @@ const Calculator = ({ selectedModels }) => {
       
       {costs.length > 0 && (
         <div className="results-section">
-          <h3>Cost Comparison</h3>
+          <h2>Cost Comparison</h2>
           <div className="cost-table">
             <div className="table-header">
               <div>Provider</div>

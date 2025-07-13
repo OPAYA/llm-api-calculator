@@ -34,6 +34,9 @@ function AppContent() {
         </aside>
 
         <main className="main-content">
+          <div className="page-intro">
+            <p>Compare API costs across major LLM providers in real-time. Calculate token usage and optimize your AI spending.</p>
+          </div>
           <div className="tabs">
             <button 
               className={`tab ${activeTab === 'calculator' ? 'active' : ''}`}
@@ -61,7 +64,7 @@ function AppContent() {
       </div>
 
       <footer className="app-footer">
-        <p>모든 데이터 로컬 처리 | <a href="https://github.com/yourusername/llm-calculator" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+        <p>All data processed locally | <a href="https://github.com/OPAYA/llm-api-calculator" target="_blank" rel="noopener noreferrer">GitHub</a></p>
       </footer>
     </div>
   );

@@ -100,7 +100,7 @@ const ConversationSimulator = ({ selectedModels }) => {
 
   return (
     <div className="conversation-simulator">
-      <h3>Conversation Simulator</h3>
+      <h2>Conversation Simulator</h2>
       
       <div className="turns-container">
         {turns.map((turn, index) => (
