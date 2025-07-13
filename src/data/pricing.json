@@ -1,0 +1,169 @@
+{
+  "vendors": {
+    "openai": {
+      "name": "OpenAI",
+      "models": [
+        {
+          "id": "gpt-4o",
+          "name": "GPT-4o",
+          "input_per_1k": 0.0025,
+          "output_per_1k": 0.01,
+          "date_start": "2024-05-13",
+          "date_end": null,
+          "supports_vision": true,
+          "context_window": 128000
+        },
+        {
+          "id": "gpt-4o-mini",
+          "name": "GPT-4o mini",
+          "input_per_1k": 0.00015,
+          "output_per_1k": 0.0006,
+          "date_start": "2024-07-18",
+          "date_end": null,
+          "supports_vision": true,
+          "context_window": 128000
+        },
+        {
+          "id": "gpt-4-turbo",
+          "name": "GPT-4 Turbo",
+          "input_per_1k": 0.01,
+          "output_per_1k": 0.03,
+          "date_start": "2023-11-06",
+          "date_end": null,
+          "supports_vision": true,
+          "context_window": 128000
+        },
+        {
+          "id": "gpt-3.5-turbo",
+          "name": "GPT-3.5 Turbo",
+          "input_per_1k": 0.0005,
+          "output_per_1k": 0.0015,
+          "date_start": "2023-06-13",
+          "date_end": null,
+          "supports_vision": false,
+          "context_window": 16385
+        }
+      ]
+    },
+    "anthropic": {
+      "name": "Anthropic",
+      "models": [
+        {
+          "id": "claude-3-opus",
+          "name": "Claude 3 Opus",
+          "input_per_1k": 0.015,
+          "output_per_1k": 0.075,
+          "date_start": "2024-03-04",
+          "date_end": null,
+          "supports_vision": true,
+          "context_window": 200000
+        },
+        {
+          "id": "claude-3-sonnet",
+          "name": "Claude 3 Sonnet",
+          "input_per_1k": 0.003,
+          "output_per_1k": 0.015,
+          "date_start": "2024-03-04",
+          "date_end": null,
+          "supports_vision": true,
+          "context_window": 200000
+        },
+        {
+          "id": "claude-3-haiku",
+          "name": "Claude 3 Haiku",
+          "input_per_1k": 0.00025,
+          "output_per_1k": 0.00125,
+          "date_start": "2024-03-13",
+          "date_end": null,
+          "supports_vision": true,
+          "context_window": 200000
+        }
+      ]
+    },
+    "google": {
+      "name": "Google",
+      "models": [
+        {
+          "id": "gemini-pro",
+          "name": "Gemini Pro",
+          "input_per_1k": 0.00025,
+          "output_per_1k": 0.0005,
+          "date_start": "2023-12-13",
+          "date_end": null,
+          "supports_vision": false,
+          "context_window": 32768
+        },
+        {
+          "id": "gemini-pro-vision",
+          "name": "Gemini Pro Vision",
+          "input_per_1k": 0.00025,
+          "output_per_1k": 0.0005,
+          "date_start": "2023-12-13",
+          "date_end": null,
+          "supports_vision": true,
+          "context_window": 32768
+        }
+      ]
+    },
+    "mistral": {
+      "name": "Mistral",
+      "models": [
+        {
+          "id": "mistral-large",
+          "name": "Mistral Large",
+          "input_per_1k": 0.004,
+          "output_per_1k": 0.012,
+          "date_start": "2024-02-26",
+          "date_end": null,
+          "supports_vision": false,
+          "context_window": 32768
+        },
+        {
+          "id": "mistral-medium",
+          "name": "Mistral Medium",
+          "input_per_1k": 0.0027,
+          "output_per_1k": 0.0081,
+          "date_start": "2023-12-11",
+          "date_end": null,
+          "supports_vision": false,
+          "context_window": 32768
+        },
+        {
+          "id": "mistral-small",
+          "name": "Mistral Small",
+          "input_per_1k": 0.0002,
+          "output_per_1k": 0.0006,
+          "date_start": "2024-02-26",
+          "date_end": null,
+          "supports_vision": false,
+          "context_window": 32768
+        }
+      ]
+    },
+    "cohere": {
+      "name": "Cohere",
+      "models": [
+        {
+          "id": "command-r-plus",
+          "name": "Command R+",
+          "input_per_1k": 0.003,
+          "output_per_1k": 0.015,
+          "date_start": "2024-04-04",
+          "date_end": null,
+          "supports_vision": false,
+          "context_window": 128000
+        },
+        {
+          "id": "command-r",
+          "name": "Command R",
+          "input_per_1k": 0.0005,
+          "output_per_1k": 0.0015,
+          "date_start": "2024-03-11",
+          "date_end": null,
+          "supports_vision": false,
+          "context_window": 128000
+        }
+      ]
+    }
+  }
+}
